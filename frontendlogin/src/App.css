@@ -1,0 +1,368 @@
+.container {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.welcome-card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  background: transparent;
+  border: 0;
+  border-left: 4px solid #007bff;
+  padding: 10px;
+  color: #000;
+  transition: background 0.3s ease, border-radius 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-field:focus {
+  outline: 0;
+  background: rgba(0, 123, 255, 0.1);
+  border-radius: 1.2rem;
+  border-color: transparent;
+}
+
+.register-btn {
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(45deg, #007bff, #00bfff);
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.login-link {
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+/* home css end */
+
+.recovery-card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.otp-label {
+  font-size: 1rem;
+}
+
+.otp-input {
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recover-btn {
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(45deg, #007bff, #00bfff);
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recover-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.resend-link {
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.input-field:focus {
+  outline: 0;
+  background: rgba(0, 123, 255, 0.1);
+  border-radius: 1.2rem;
+  border-color: transparent;
+}
+/* recover css end */
+
+img {
+  width: 150px;
+  height: 150px;
+}
+.register-card {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.register-btn {
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(45deg, #007bff, #00bfff);
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.input-field {
+  background: transparent;
+  border: 0;
+  border-left: 4px solid #007bff;
+  padding: 10px;
+  color: #000;
+  transition: background 0.3s ease, border-radius 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-field:focus {
+  outline: 0;
+  background: rgba(0, 123, 255, 0.1);
+  border-radius: 1.2rem;
+  border-color: transparent;
+}
+/* register css end */
+
+/* Small devices (phones) */
+@media only screen and (max-width: 480px) {
+  /* home css start  */
+  .container {
+    width: 90%;
+  }
+
+  .welcome-card {
+    padding: 15px;
+  }
+
+  .user-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .input-field {
+    padding: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .register-btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+  /* home css end */
+  /* register css start */
+
+  .card-body p {
+    font-size: 0.7rem;
+  }
+  /* register css end */
+
+  /* recover css start  */
+  .recovery-card {
+    padding: 15px;
+  }
+
+  .otp-label {
+    font-size: 1rem;
+  }
+
+  .otp-input {
+    padding: 8px;
+  }
+
+  .recover-btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+  /* recover css end  */
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* home css start */
+  .container {
+    width: 80%;
+  }
+
+  .welcome-card {
+    padding: 20px;
+  }
+
+  .user-image {
+    width: 130px;
+    height: 130px;
+  }
+
+  .input-field {
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .register-btn {
+    padding: 12px;
+    font-size: 15px;
+  }
+  /* home css end */
+  /* recovery css start */
+  .recovery-card {
+    padding: 20px;
+  }
+
+  .otp-label {
+    font-size: 1.1rem;
+  }
+
+  .otp-input {
+    padding: 10px;
+  }
+
+  .recover-btn {
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  /* recovery css end */
+}
+
+/* Large devices (desktops/laptops) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* home css */
+  .container {
+    width: 75%;
+  }
+
+  .welcome-card {
+    padding: 25px;
+  }
+
+  .user-image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .input-field {
+    padding: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .register-btn {
+    padding: 14px;
+    font-size: 16px;
+  }
+  /* home css end */
+
+  /* recovery css start */
+  .recovery-card {
+    padding: 25px;
+  }
+
+  .otp-label {
+    font-size: 1rem;
+  }
+
+  .otp-input {
+    padding: 12px;
+  }
+
+  .recover-btn {
+    padding: 14px;
+    font-size: 16px;
+  }
+
+  /* recovery css end */
+}
+
+/* Extra large devices */
+@media only screen and (min-width: 1025px) {
+  /* home css start */
+
+  .container {
+    width: 75%;
+  }
+
+  .welcome-card {
+    padding: 30px;
+  }
+
+  .user-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .input-field {
+    padding: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    /* border: 1px solid black; */
+  }
+
+  .register-btn {
+    padding: 16px;
+    font-size: 18px;
+  }
+  /* home css end */
+
+  /* recovery css start */
+
+  .recovery-card {
+    padding: 30px;
+  }
+
+  .otp-label {
+    font-size: 1rem;
+  }
+
+  .otp-input {
+    padding: 14px;
+  }
+
+  .recover-btn {
+    padding: 16px;
+    font-size: 18px;
+  }
+  /* recovery css end */
+}
+
+.wrapper {
+  display: inline-block;
+  position: relative;
+  left: 160px;
+}
+
+.btnimg {
+  pointer-events: none;
+  width: 140px;
+  height: 140px;
+  opacity: 1;
+  line-height: 90px;
+  text-align: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+.linkDesign {
+  font-size: 12px;
+}
+.frogetPass {
+  margin-left: 140px;
+}
