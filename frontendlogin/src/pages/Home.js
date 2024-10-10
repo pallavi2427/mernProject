@@ -93,7 +93,7 @@ const Home = () => {
                 <div className="d-flex justify-content-center">
                   <button
                     type="submit"
-                    className="btn btn-info text-white register-btn"
+                    className="btn btn-primary text-white register-btn"
                   >
                     Sign In
                   </button>
